@@ -23,7 +23,7 @@ var embedConfig = {
 
 module.exports = {
   siteName: 'CodeLoads',
-  siteUrl: 'https://codeloads.com',
+  siteUrl: 'https://codeloads.now.sh',
   permalinks: {
     trailingSlash:false
   },

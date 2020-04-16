@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+
     <svg id="bigHalfCircle" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
       <path d="M0 100 C40 0 60 0 100 100 Z"/>
     </svg>
@@ -27,7 +27,7 @@
             </p>
           </b-col>
 
-          <b-col md="12" lg="6" order="1" order-sm="2" class="height-60 d-none d-sm-none d-md-block" data-aos="fade-up">
+          <b-col md="12" lg="6" order="1" order-sm="2" class="height-60 d-none d-sm-none d-md-block">
             <g-image
               class="bg-image "
               src="~/resources/images/laptop.svg"

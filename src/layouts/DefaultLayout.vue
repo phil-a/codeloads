@@ -3,8 +3,11 @@
     <b-container fluid class="p-0">
       <HeaderPartial />
     </b-container>
-
-    <slot />
+    <transition name="fade" appear>
+      <main>
+        <slot />
+      </main>
+    </transition>
 
     <b-container fluid class="p-0">
       <FooterPartial />
@@ -26,22 +29,28 @@ query {
 <script>
 import HeaderPartial from "~/layouts/partials/Header.vue";
 import FooterPartial from "~/layouts/partials/Footer.vue";
-import AOS from "aos";
 //import GoTop from '@inotom/vue-go-top';
 
 export default {
   components: {
     HeaderPartial,
     FooterPartial,
-    AOS,
     //GoTop
     BackToTop: () => import ('@inotom/vue-go-top')
   },
   metaInfo: {
     
   },
-  mounted() {
-    AOS.init();
-  }
 };
 </script>
+
+<style>
+.fade-enter-active {
+  transition: all .65s;
+}
+
+.fade-enter {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+</style>

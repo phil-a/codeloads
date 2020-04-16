@@ -2,7 +2,6 @@
 
 <a :href="record.link" target="_blank">
 <div class="card-wrap"
-      data-aos="fade-in"
       @mousemove="handleMouseMove"
       @mouseenter="handleMouseEnter"
       @mouseleave="handleMouseLeave"

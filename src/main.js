@@ -3,7 +3,6 @@ import EmptyLayout from "~/layouts/EmptyLayout.vue";
 
 import BootstrapVue from "bootstrap-vue";
 import VueFuse from "vue-fuse";
-import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";

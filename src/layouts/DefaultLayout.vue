@@ -3,12 +3,7 @@
     <b-container fluid class="p-0">
       <HeaderPartial />
     </b-container>
-    <transition name="fade" appear>
-      <main>
-        <slot />
-      </main>
-    </transition>
-
+    <slot />
     <b-container fluid class="p-0">
       <FooterPartial />
     </b-container>
@@ -43,14 +38,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.fade-enter-active {
-  transition: all .65s;
-}
-
-.fade-enter {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-</style>

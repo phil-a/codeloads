@@ -3,7 +3,6 @@ import EmptyLayout from "~/layouts/EmptyLayout.vue";
 
 import BootstrapVue from "bootstrap-vue";
 import VueFuse from "vue-fuse";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
@@ -17,8 +16,6 @@ import "prismjs/themes/prism.css";
 import "~/resources/scss/prism-theme.scss";
 
 import "prismjs/plugins/line-numbers/prism-line-numbers.css";
-
-AOS.init();
 
 config.autoAddCss = false;
 library.add(fas);

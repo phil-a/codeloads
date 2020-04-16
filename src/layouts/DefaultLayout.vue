@@ -26,17 +26,22 @@ query {
 <script>
 import HeaderPartial from "~/layouts/partials/Header.vue";
 import FooterPartial from "~/layouts/partials/Footer.vue";
+import AOS from "aos";
 //import GoTop from '@inotom/vue-go-top';
 
 export default {
   components: {
     HeaderPartial,
     FooterPartial,
+    AOS,
     //GoTop
     BackToTop: () => import ('@inotom/vue-go-top')
   },
   metaInfo: {
     
+  },
+  mounted() {
+    AOS.init();
   }
 };
 </script>

@@ -12,17 +12,6 @@
           {{ record.excerpt }}
         </b-card-text>
 
-        <div>
-          <span class="badge-link" v-for="tag in record.tags" :key="tag.title">
-            <b-badge :to="tag.path" variant="light">
-              {{ tag.title }}
-            </b-badge>
-          </span>
-        </div>
-
-          <!-- <b-card-text>
-            <b-button block class="card-link" variant="outline-primary" :to="recordLink">Continue reading &nbsp;<font-awesome :icon="['fas', 'long-arrow-alt-right']"></font-awesome></b-button>
-          </b-card-text> -->
         <template v-slot:footer footer-class="border-0 m-0 bg-white p-0">
             <span class="small">{{ record.createdAt }} <strong>&#183;</strong> {{ record.timeToRead }} min read</span>
         </template>

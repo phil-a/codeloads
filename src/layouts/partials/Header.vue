@@ -9,7 +9,7 @@
         </b-navbar-brand>
         
         <b-collapse id="header-navbar" is-nav class="overlay-navigation">
-          <b-navbar-nav sticky="true" class="ml-auto lead nav-content">
+          <b-navbar-nav class="ml-auto lead nav-content">
             <g-link to="/" class="nav-link" exact>Home</g-link>
             <g-link to="/articles" class="nav-link" exact>Articles</g-link>
             <g-link to="/news" class="nav-link" exact>News</g-link>

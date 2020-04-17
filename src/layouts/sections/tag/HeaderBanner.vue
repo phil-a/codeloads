@@ -9,11 +9,11 @@
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
           <h1 class="display-4 mb-0">#{{tag}}</h1>
-          <p class="lead">We have found
+          <div class="lead">We have found
             <b-badge variant="primary">
               {{ totalCount }}
             </b-badge>
-          records for this tag</p>
+          records for this tag</div>
         </b-col>
 
         

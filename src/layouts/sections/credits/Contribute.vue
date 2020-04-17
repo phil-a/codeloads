@@ -29,7 +29,7 @@
         <div class="row">
           <div class="col">
             <h4 class="font-weight-light">Did we miss you in the credits?</h4>
-            <p class="lead mb-0">
+            <div class="lead mb-0">
               Please take a look at our 
               <g-link
                 tabindex="-1"
@@ -38,7 +38,7 @@
               >Contribute Page
               </g-link>
               for more info on how to be added.
-            </p>
+            </div>
           </div>
           <!--end of col-->
         </div>

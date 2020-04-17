@@ -11,7 +11,7 @@
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
           <h1 class="display-4 mb-0">{{ record.title }}</h1>
-          <p class="lead" v-if="record.subtitle">{{ record.subtitle}}</p>
+          <div class="lead" v-if="record.subtitle">{{ record.subtitle}}</div>
         </b-col>
       </b-row>
     </b-container>

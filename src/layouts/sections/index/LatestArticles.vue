@@ -3,7 +3,7 @@
     <b-container>
       <div class="text-center">
         <h2>Latest Articles</h2>
-        <p class="lead">Curious what new articles are on our website? Check out our latest articles!</p>
+        <div class="lead">Curious what new articles are on our website? Check out our latest articles!</div>
       </div>
 
       <div class="container article-container">

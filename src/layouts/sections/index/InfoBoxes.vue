@@ -17,14 +17,14 @@
             />
             </div>
             <h3 class="display-4 text-center">Who are we?</h3>
-            <p class="lead">
+            <div class="lead">
               We are software developers and tech enthusiasts out to change the world.
-              <br>
+              <br />
               Our goal is to consistently learn (and teach) a little bit everyday, so that the rest of the world will pay it forward.
-
-            <p class="text-center">
+            </div>
+            <div class="text-center">
               <g-link to="/pages/about-us" class="btn btn-lg btn-primary">Find out more</g-link>
-            </p>
+            </div>
           </b-col>
 
           <b-col md="12" lg="6" order="1" order-sm="2" class="height-60 d-none d-sm-none d-md-block">

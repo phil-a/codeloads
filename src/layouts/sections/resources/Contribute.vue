@@ -29,14 +29,14 @@
       <div class="row">
         <div class="col">
           <h4 class="font-weight-light">Interested in adding to our list?</h4>
-          <p class="lead text-dark mb-0">
+          <div class="lead text-dark mb-0">
             Feel free to
             <b-link href="emailto:human@codeloads.com">email me</b-link>
             directly or submit a 
             <g-link to="/pages/contribute">
               pull request
             </g-link>
-          </p>
+          </div>
         </div>
         <!--end of col-->
       </div>

@@ -7,9 +7,9 @@
                 We
                 <font-awesome :icon="['fas', 'heart']" class="text-danger"></font-awesome> Open Source
               </h3>
-              <p class="lead">
+              <div class="lead">
                 We're using only open source components!
-              </p>
+              </div>
           </b-col>
           <b-col cols="12">
 

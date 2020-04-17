@@ -9,11 +9,11 @@
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
           <h1 class="display-4 mb-0">Articles</h1>
-          <p class="lead">We currently have
+          <div class="lead">We currently have
             <b-badge variant="primary">
             {{ totalCount }}
             </b-badge>
-          articles in our list</p>
+          articles in our list</div>
         </b-col>
 
         

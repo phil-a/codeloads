@@ -11,7 +11,7 @@
         <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
         <div class="card-info">
           <h1>{{record.title}}</h1>
-          <p>{{record.excerpt || record.link}}</p>
+          <div>{{record.excerpt || record.link}}</div>
           <g-link v-for="tag in record.tags" :to="'resources/filter/tags/' + tag.title" class="" :key="tag.id">
             <b-badge class="ml-1" variant="primary">{{ tag.title }}</b-badge>
           </g-link>

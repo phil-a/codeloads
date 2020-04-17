@@ -12,9 +12,9 @@
         <div class="card-info">
           <h1>{{record.title}}</h1>
           <div>{{record.excerpt || record.link}}</div>
-          <g-link v-for="tag in record.tags" :to="'resources/filter/tags/' + tag.title" class="" :key="tag.id">
+          <!-- <g-link v-for="tag in record.tags" :to="'resources/filter/tags/' + tag.title" class="" :key="tag.id">
             <b-badge class="ml-1" variant="primary">{{ tag.title }}</b-badge>
-          </g-link>
+          </g-link> -->
         </div>
       </div>
     </div>

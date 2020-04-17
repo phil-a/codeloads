@@ -12,6 +12,11 @@
           {{ record.excerpt }}
         </b-card-text>
 
+        <div>
+            <b-badge class="badge-link" v-for="tag in record.tags" :key="tag.title" :to="tag.path" variant="light">
+              {{ tag.title }}
+            </b-badge>
+        </div>
         <template v-slot:footer footer-class="border-0 m-0 bg-white p-0">
             <span class="small">{{ record.createdAt }} <strong>&#183;</strong> {{ record.timeToRead }} min read</span>
         </template>

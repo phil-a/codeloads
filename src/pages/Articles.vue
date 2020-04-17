@@ -1,7 +1,6 @@
 <template>
   <DefaultLayout>
     <SectionHeaderBanner :totalCount="$page.records.totalCount"></SectionHeaderBanner>
-    
     <section class="col-12 pt-5 ss-style-roundedsplit">
       <b-container class="pb-5">
         <div class="container article-container">

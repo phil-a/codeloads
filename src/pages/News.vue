@@ -46,7 +46,6 @@ export default {
 
 <page-query>
   query ($page: Int) {
-    
     records: allNews(perPage: 9, page: $page) @paginate {
       totalCount
       pageInfo {

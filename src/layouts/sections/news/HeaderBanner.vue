@@ -1,16 +1,19 @@
 <template>
   <section class="height-30 bg-dark text-white jarallax">
-    
     <g-image
-      src="~/resources/images/person-reading-burning-newspaper.jpg"
+      src="~/resources/images/blur-code.jpg"
       class="jarallax-img opacity-60"
-      alt="News"
+      alt="Articles"
     />
     <b-container>
       <b-row class="justify-content-center text-center">
         <b-col md="10" lg="8" class="pt-3 pb-3">
           <h1 class="display-4 mb-0">News</h1>
-          <p class="lead">Ain't there always something strange happening?</p>
+          <p class="lead">We currently have
+            <b-badge variant="primary">
+            {{ totalCount }}
+            </b-badge>
+          news articles in our list</p>
         </b-col>
 
         

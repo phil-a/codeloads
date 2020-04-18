@@ -5,11 +5,11 @@
       <b-container class="pb-5">
         <div class="container news-container">
           <b-row>
-            <RecordCard
-              v-for="edge in $page.records.edges"
+            <BlogCard 
+              v-for="(edge, index) in $page.records.edges"
               :key="edge.node.id"
               :record="edge.node"
-            />
+              :index="index" />
           </b-row>
         </div>
       </b-container>
@@ -26,13 +26,13 @@
 </template>
 
 <script>
-import RecordCard from "~/components/RecordCard.vue";
+import BlogCard from "~/components/BlogCard.vue";
 import Pagination from "~/components/Pagination.vue";
 import SectionHeaderBanner from "~/layouts/sections/news/HeaderBanner.vue";
 
 export default {
   components: {
-    RecordCard,
+    BlogCard,
     Pagination,
     SectionHeaderBanner
   },

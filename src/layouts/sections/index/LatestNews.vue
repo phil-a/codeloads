@@ -7,11 +7,11 @@
 
       <div class="container news-container">
         <b-row>
-          <RecordCard
-            v-for="edge in $static.records.edges"
-            :key="edge.node.id"
-            :record="edge.node"
-          />
+            <BlogCard 
+              v-for="(edge, index) in $static.records.edges"
+              :key="edge.node.id"
+              :record="edge.node"
+              :index="index" />
         </b-row>
       </div>
       <g-link to="/news" class="btn btn-lg btn-primary mt-5">Browse all news <font-awesome :icon="['fas', 'arrow-right']"></font-awesome></g-link>
@@ -20,11 +20,11 @@
 </template>
 
 <script>
-import RecordCard from "~/components/RecordCard.vue";
+import BlogCard from "~/components/BlogCard.vue";
 
 export default {
   components: {
-    RecordCard
+    BlogCard
   }
 };
 </script>

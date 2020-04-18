@@ -1,7 +1,7 @@
 ---
 title: Odin
 tags: god, norse, mythology
-excerpt: After Fenrir's son Sköll has swallowed the sun and his other son Hati Hróðvitnisson has swallowed the moon, the stars will disappear from the sky.
+excerpt: The source of most surviving information about him, associates Odin with wisdom, healing, death, royalty, the gallows, knowledge, war, battle, victory, sorcery, poetry, frenzy, and the runic alphabet, and portrays him as the husband of the goddess Frigg.
 createdAt: 2000-01-01 01:01:00
 ---
 

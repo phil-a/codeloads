@@ -1,7 +1,7 @@
 ---
 title: Fenrir
 tags: wolf, norse, mythology
-excerpt: After Fenrir's son Sköll has swallowed the sun and his other son Hati Hróðvitnisson has swallowed the moon, the stars will disappear from the sky.
+excerpt:  Fenrir, together with Hel and the World Serpent is a child of Loki and giantess Angrboða. He is attested in the Poetic Edda, compiled in the 13th century from earlier traditional sources, and the Prose Edda and Heimskringla, written in the 13th century by Snorri Sturluson. In both the Poetic Edda and Prose Edda, Fenrir is the father of the wolves Sköll and Hati Hróðvitnisson, is a son of Loki, and is foretold to kill the god Odin during the events of Ragnarök, but will in turn be killed by Odin's son Víðarr.
 createdAt: 2020-02-20 11:11:00
 ---
 

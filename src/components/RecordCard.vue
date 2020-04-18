@@ -2,7 +2,7 @@
 
     <b-col class="py-2" md="6" lg="6" sm="6">
     
-      <a class="card-link zoom" :to="recordLink">
+      <a class="card-link zoom" :href="recordLink">
         <b-card border-variant="primary"
           header-bg-variant="primary"
           header-text-variant="white"
@@ -15,7 +15,7 @@
           <div>
             <span class="badge-link" v-for="tag in record.tags" :key="tag.title">
               <b-badge :to="tag.path" variant="light">
-                {{ tag.title }}
+                #{{ tag.title }}
               </b-badge>
             </span>
           </div>

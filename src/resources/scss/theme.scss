@@ -194,7 +194,7 @@ img.bg-image {
 }
 
 .bg-white {
-  background-color: white;;
+  background-color: white;
 }
 .bg-white-to-cloud {
   background-image: linear-gradient(white, $white-cloud);
@@ -425,6 +425,7 @@ img.bg-image {
 
 
 .card-link {
+  z-index: 2;
   // &:hover {
   //   background-color: $primary;
   // }

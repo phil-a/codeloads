@@ -5,7 +5,7 @@
       <b-container>
         <b-row>
           <b-col cols="12" md="12" class="sidebar">
-            <Sidebar></Sidebar>
+            <Sidebar :selected="$route.params.title"></Sidebar>
           </b-col>
           <div class="resource-container">
             <ResourceCard

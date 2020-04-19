@@ -761,6 +761,7 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     .card-info {
       transform: translateY(0);
     }
+
     .card-info p {
       color: white;
       opacity: 1;
@@ -826,6 +827,7 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .card-info {
+
   width: 100%;
   padding: 20px;
   position: absolute;
@@ -862,8 +864,8 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .card-info h1 {
-  font-family: "Playfair Display";
-  font-size: 36px;
+  font-family: $font-family-sans-serif;
+  font-size: 30px;
   font-weight: 700;
   text-shadow: rgba(black, 0.5) 0 10px 10px;
 }

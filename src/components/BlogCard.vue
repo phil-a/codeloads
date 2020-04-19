@@ -5,14 +5,14 @@
     v-on:mouseleave="mouseleave">
   <g-link class="card-link" :to="recordLink">
     <article :class="blogCardClass">
-      <img v-if="indexEven" class="post-image" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/pike-place.jpg' />
+      <img v-if="indexEven" class="post-image" src='../resources/images/coffee.jpg' />
       <div class="article-details">
         <h4 class="post-category">{{ record.createdAt }} </h4>
         <h3 class="post-title">{{record.title}}</h3>
         <p class="post-description">{{record.excerpt}}</p>
         <p class="post-author"><span class="small"><strong>&#183;</strong> {{ record.timeToRead }} min read</span></p>
       </div>
-      <img v-if="!indexEven" class="post-image" src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1159990/pike-place.jpg' />
+      <img v-if="!indexEven" class="post-image" src='../resources/images/scenic-240x320.jpg' />
     </article>
   </g-link>
 </div>

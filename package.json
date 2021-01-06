@@ -16,7 +16,7 @@
     "@noxify/gridsome-plugin-remark-embed": "^1.1.5",
     "@sindresorhus/slugify": "^0.9.1",
     "aos": "^2.3.4",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.1.0",
     "core-js": "^3.6.4",
